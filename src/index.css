@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-emerald-400);
+
+  --color-textLight: var(--color-slate-50);
+  --color-textDarker: var(--color-stone-200);
+}
+
+.bubbles span {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  animation: bubbles 15s linear infinite;
+  animation-duration: calc(800s / var(--i));
+}
+
+@keyframes bubbles {
+  0% {
+    transform: translateY(100vh) scale(0) rotate(0deg);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: translateY(-10vh) scale(1) rotate(720deg);
+    opacity: 0.3;
+  }
+}
