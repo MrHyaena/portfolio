@@ -9,10 +9,13 @@ export default function AboutMe({ text }) {
         <div className="grid grid-cols-[300px_1fr] items-start gap-10">
           <img
             src={me}
-            className="object-cover w-[300px] h-[300px] bg-stone-700 rounded-md rounded-tl-4xl rounded-br-4xl hue-rotate-30 saturate-30"
+            className="object-cover w-[300px] h-[300px] bg-stone-700 rounded-md  hue-rotate-30 saturate-30"
           ></img>
-          <div>
-            <p>{text.about.text}</p>
+          <div className="flex flex-col gap-3">
+            <p>{text.about.textOne}</p>
+            <p>{text.about.textTwo}</p>
+            <p>{text.about.textThree}</p>
+            <p>{text.about.textFour}</p>
           </div>
         </div>
       </div>

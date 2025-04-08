@@ -7,7 +7,7 @@ export default function Technologies({ text }) {
     let database = document.getElementById("database");
 
     let ofset = 300;
-    let scale = "1.07";
+    let scale = "1.05";
 
     const frontendTopToTop = frontend.offsetTop - ofset;
     const frontendTopToBottom =
@@ -48,16 +48,16 @@ export default function Technologies({ text }) {
         <h2 className=" text-3xl font-semibold mb-10">
           {text.technologies.subheading}
         </h2>
-        <div className="flex flex-col gap-5">
+        <div className="grid grid-rows-3 gap-5">
           <div
             id="frontend"
-            className="w-full min-h-50 bg-stone-900 rounded-md p-5 transition-all ease-in-out"
+            className="w-full h-full bg-stone-900 rounded-md p-6 transition-all ease-in-out flex flex-col"
           >
             <h3 className="text-primary text-xl font-bold mb-2 border-l-2 pl-5">
               {text.technologies.frontend[0]}
             </h3>
-            <div className="w-full grid grid-cols-3 gap-10">
-              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
+            <div className="w-full grid grid-cols-3 gap-10 h-full">
+              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700 h-full">
                 <h4 className="text-lg font-semibold">
                   {text.technologies.frontend[1]}
                 </h4>
@@ -67,17 +67,19 @@ export default function Technologies({ text }) {
                   <li>HTML</li>
                 </ul>
               </div>
-              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
+              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700 h-full">
                 <h4 className="text-lg font-semibold">
                   {text.technologies.frontend[2]}
                 </h4>
                 <ul>
+                  <li>Typescript</li>
+
                   <li>React</li>
                   <li>NextJS</li>
                   <li>CSS Modules</li>
                 </ul>
               </div>
-              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
+              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700 h-full">
                 <h4 className="text-lg font-semibold">
                   {" "}
                   {text.technologies.frontend[3]}
@@ -91,13 +93,13 @@ export default function Technologies({ text }) {
           </div>
           <div
             id="backend"
-            className="w-full min-h-50 bg-stone-800 rounded-md p-5 transition-all ease-in-out"
+            className="w-full h-full bg-stone-800 rounded-md p-6 transition-all ease-in-out flex flex-col"
           >
             <h3 className="text-primary text-xl font-bold mb-2 border-l-2 pl-5">
               {text.technologies.backend[0]}
             </h3>
-            <div className="w-full grid grid-cols-3 gap-10">
-              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
+            <div className="w-full grid grid-cols-3 gap-10 h-full">
+              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700 ">
                 <h4 className="text-lg font-semibold">
                   {text.technologies.backend[1]}
                 </h4>
@@ -105,16 +107,17 @@ export default function Technologies({ text }) {
                   <li>Javascript</li>
                 </ul>
               </div>
-              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
+              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700 ">
                 <h4 className="text-lg font-semibold">
                   {text.technologies.backend[2]}
                 </h4>
                 <ul>
+                  <li>Typescript</li>
                   <li>NodeJS</li>
                   <li>Express</li>
                 </ul>
               </div>
-              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
+              <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700 ">
                 <h4 className="text-lg font-semibold">
                   {text.technologies.backend[3]}
                 </h4>
@@ -128,12 +131,12 @@ export default function Technologies({ text }) {
           </div>
           <div
             id="database"
-            className="w-full min-h-50 bg-stone-900 rounded-md p-5 transition-all ease-in-out"
+            className="w-full h-full bg-stone-900 rounded-md p-6 transition-all ease-in-out flex flex-col"
           >
             <h3 className="text-primary text-xl font-bold mb-2 border-l-2 pl-5">
               {text.technologies.database[0]}
             </h3>
-            <div className="w-full grid grid-cols-3 gap-10">
+            <div className="w-full grid grid-cols-3 gap-10 h-full">
               <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
                 <h4 className="text-lg font-semibold">
                   {text.technologies.database[1]}
@@ -148,6 +151,7 @@ export default function Technologies({ text }) {
                   {text.technologies.database[2]}
                 </h4>
                 <ul>
+                  <li>Kubernetes</li>
                   <li>Prisma</li>
                   <li>Node-postgres</li>
                   <li>Mongoose</li>

@@ -25,11 +25,11 @@ export default function Panel({ text, children }) {
         if (data < topToBottom && data >= topToTop) {
           linkDiv.style.backgroundColor = "oklch(76.5% 0.177 163.223)";
           linkP.style.color = "oklch(76.5% 0.177 163.223)";
-          linkLi.style.width = "60%";
+          linkDiv.style.width = "20%";
         } else {
           linkDiv.style.removeProperty("background-color");
           linkP.style.removeProperty("color");
-          linkLi.style.removeProperty("width");
+          linkDiv.style.removeProperty("width");
         }
       });
     }, []);
@@ -46,11 +46,11 @@ export default function Panel({ text, children }) {
             });
           }}
           id={id + "li"}
-          className="group grid grid-cols-[1fr_100px] gap-3 items-center w-[40%] hover:w-[60%] hover:text-primary   transition-all ease-in-out cursor-pointer"
+          className="group flex gap-3 items-center  hover:text-primary   transition-all ease-in-out cursor-pointer"
         >
           <div
             id={id + "div"}
-            className="h-[2px] group-hover:bg-primary bg-white ease-in-out transition-all "
+            className="h-[2px] group-hover:bg-primary w-[10%] group-hover:w-[20%] bg-white ease-in-out transition-all "
           ></div>
           <p id={id + "p"}>{text}</p>
         </li>
@@ -85,6 +85,11 @@ export default function Panel({ text, children }) {
               text={text.info.links[2]}
               element={"projects"}
               id={"thirdLink"}
+            />
+            <LiLink
+              text={text.info.links[3]}
+              element={"work"}
+              id={"fourthLink"}
             />
           </ul>
           <div className="flex flex-col gap-2">
