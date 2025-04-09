@@ -114,15 +114,13 @@ function App() {
     }, []);
     return (
       <>
-        <div className="w-[1300px] min-h-screen mt-30 mb-50 grid grid-cols-[3fr_7fr] gap-20 z-30">
-          <div>
-            <Panel text={text}>
-              <div className="flex items-center gap-5">
-                <h1 className="text-3xl font-semibold">Martin Doležal</h1>
-                <LangSwitcher setText={setText} />
-              </div>
-            </Panel>
-          </div>
+        <div className="xl:w-[1300px] min-h-screen mt-30 mb-50 xl:grid grid-cols-[3fr_7fr] gap-20 z-30 p-5">
+          <Panel text={text}>
+            <div className="flex items-center gap-5">
+              <h1 className="text-3xl font-semibold">Martin Doležal</h1>
+              <LangSwitcher setText={setText} />
+            </div>
+          </Panel>
           <div className="flex flex-col gap-50">
             <AboutMe text={text} />
             <Technologies text={text} />
@@ -136,7 +134,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full min-h-screen bg-stone-950 flex flex-col items-center justify-center font-mono text-textLight relative">
+      <div className="xl:w-full min-h-screen bg-stone-950 flex flex-col items-center justify-center font-mono text-textLight relative">
         <Bubbles />
         <MainContent />
       </div>

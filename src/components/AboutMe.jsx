@@ -6,7 +6,7 @@ export default function AboutMe({ text }) {
     <>
       <div id="about" className="text-lg font-semibold" key={"about"}>
         <h2 className="text-3xl mb-10 col-span-2">{text.about.subheading}</h2>
-        <div className="grid grid-cols-[300px_1fr] items-start gap-10">
+        <div className="xl:grid grid-cols-[300px_1fr] items-start gap-10">
           <img
             src={me}
             className="object-cover w-[300px] h-[300px] bg-stone-700 rounded-md  hue-rotate-30 saturate-30"

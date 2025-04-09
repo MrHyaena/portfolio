@@ -7,13 +7,13 @@ export const textCz = {
   about: {
     subheading: "O mně",
     textOne:
-      "Sám o sobě bych řekl, že jsem poměrně všestranný člověk. Skrze svět investic se mi hlava nastavila na ekonomické přemýšlení, skrze které dnes hodnotím projekty, benefity, nákladovost a mnoho dalšího.",
+      "Sám o sobě bych řekl, že jsem poměrně všestranný člověk. Začátky mám ve světě investic a financí. Tento obor mě nastavil na ekonomické přemýšlení, které se promítá do projektů, práce, ale i běžného života. Někde v té době jsem také začal tvořit články pro online redakce, kde jsem zase ostřil schopnost psát příběhovou copy.",
     textTwo:
-      "Chuť po vlastním projektu mě pak před lety přivedla k no-code platformám, se kterými jsem po stovkách hodin vytvořil aplikace. Na to si přidejte marketing a trochu práva kvůli komunikaci se zákazníky. Profesně jsem se v této době učil sales ve startupu cílícím na e-commerce, protože i sebelepší aplikaci je potřeba nějakým způsobem dotlačit k zákanzíkům.",
+      "Chuť po vlastním projektu mě pak před lety přivedla k no-code platformám, se kterými jsem po stovkách hodin vytvořil pár aplikací a pustil je do světa. Na to si tedy přidejte marketing a trochu práva kvůli komunikaci se zákazníky. Profesně jsem učil sales ve startupu cílícím na ecommerce, protože jak jsem zjistil - zákazníci sami nepřijdou, je potřeba jim ukázat, že něco potřebují.",
     textThree:
-      "V tuto chvíli je poslední fází plnohodnotné programování a projektový management. V jednu chvíli mě prostě přestala bavit omezení plynoucí z no-code aplikací a pustil jsem se tak planou parou do webového vývoje. Po zhruba 5 měsících jsem měl první full-stack appku na tvorbu předplatných, která stále běží.",
+      "V tuto chvíli žiji v programování a kariérně v projektovém managementu/provozu. Proč? V jednu chvíli mě prostě přestala bavit omezení plynoucí z no-code aplikací a pustil jsem se tak plnou parou do webového vývoje. Po zhruba 5 měsících jsem měl první full-stack appku na tvorbu předplatných, která stále běží, a každý den dřu další vědomosti.",
     textFour:
-      "A ze skutečně osobního pohledu? Miluji sport, zvířata, různé výzvy ala čím náročnější a bolestivější tím lepší. Standardně si užívám každou akci, ale dostat mě tam je fuška. Představte si v zásadě zlatého retrývra a kromě kožichu se pravděpodobně dost trefíte.",
+      "Jak to mám osobnostně? Miluji sport (jen posilovnu jedu pětkrát týdně), zvířata, různé výzvy ala čím náročnější a bolestivější tím lepší. Standardně si užívám každou akci, ale dostat mě tam je fuška. Jsem soutěživý, cílevědomý, občas trochu cholerik s lehce tvrdohlavou náturou, ale kdykoliv ochotný přiznat chybu a naučit se něco nového. Chováním si představte v zásadě zlatého retrývra, a když odmyslíte kožich, tak se nejspíš vcelku trefíte.",
   },
   technologies: {
     subheading: "Technologie",

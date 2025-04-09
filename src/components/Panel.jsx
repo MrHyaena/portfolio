@@ -61,7 +61,7 @@ export default function Panel({ text, children }) {
   return (
     <>
       <div
-        className="sticky top-30 flex flex-col justify-between gap-30"
+        className="xl:sticky top-30 flex flex-col justify-between gap-30"
         key="info"
       >
         <div className="flex flex-col gap-10">
