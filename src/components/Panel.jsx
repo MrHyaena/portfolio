@@ -61,7 +61,7 @@ export default function Panel({ text, children }) {
   return (
     <>
       <div
-        className="xl:sticky top-30 flex flex-col justify-between gap-30"
+        className="xl:sticky top-[140px] flex flex-col justify-between xl:gap-20 gap-5"
         key="info"
       >
         <div className="flex flex-col gap-10">
@@ -70,7 +70,7 @@ export default function Panel({ text, children }) {
             <h2 className="text-xl font-semibold">{text.info.subheading}</h2>
             <p>{text.info.text}</p>
           </div>
-          <ul className=" flex flex-col gap-3 w-full">
+          <ul className=" xl:flex hidden flex-col gap-3 w-full">
             <LiLink
               text={text.info.links[0]}
               element={"about"}

@@ -9,6 +9,7 @@ import Technologies from "./components/Technologies";
 import LangSwitcher from "./components/LangSwitcher";
 import { textCz } from "./components/texts";
 import WorkExperience from "./components/WorkExperience";
+import MobileHeader from "./components/MobileHeader";
 
 function App() {
   function MainContent() {
@@ -112,16 +113,23 @@ function App() {
     useEffect(() => {
       setText(textCz);
     }, []);
+
+    const windowWidth = window.innerWidth;
+    console.log(windowWidth);
+
     return (
       <>
-        <div className="xl:w-[1300px] min-h-screen mt-30 mb-50 xl:grid grid-cols-[3fr_7fr] gap-20 z-30 p-5">
-          <Panel text={text}>
-            <div className="flex items-center gap-5">
-              <h1 className="text-3xl font-semibold">Martin Doležal</h1>
-              <LangSwitcher setText={setText} />
-            </div>
-          </Panel>
-          <div className="flex flex-col gap-50">
+        <MobileHeader text={text} />
+        <div className="xl:w-[1300px] flex flex-col xl:gap-10 min-h-screen mt-30 mb-50 xl:grid grid-cols-[3fr_7fr] gap-20 z-30 p-5">
+          <div>
+            <Panel text={text}>
+              <div className="flex items-center gap-5">
+                <h1 className="text-3xl font-semibold">Martin Doležal</h1>
+                <LangSwitcher setText={setText} />
+              </div>
+            </Panel>
+          </div>
+          <div className="flex flex-col xl:gap-50 gap-20">
             <AboutMe text={text} />
             <Technologies text={text} />
             <Projects text={text} />
@@ -134,7 +142,7 @@ function App() {
 
   return (
     <>
-      <div className="xl:w-full min-h-screen bg-stone-950 flex flex-col items-center justify-center font-mono text-textLight relative">
+      <div className="w-full min-h-screen bg-stone-950 flex flex-col items-center justify-center font-mono text-textLight relative">
         <Bubbles />
         <MainContent />
       </div>

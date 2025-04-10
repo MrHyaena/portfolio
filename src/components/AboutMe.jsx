@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import me from "/public/me.jpg";
 
 export default function AboutMe({ text }) {
+  // useEffect(() => {
+  //   const textOne = document.getElementById("textOne");
+  //   const textArray = text.about.textOne.split("");
+  //   let i = 0;
+  //   const intervalId = setInterval(() => {
+  //     textOne.textContent = textOne.textContent + textArray[i];
+  //     i = i + 1;
+  //     if (i == textArray.length) {
+  //       clearInterval(intervalId);
+  //     }
+  //   }, 10);
+  // }, []);
+
   return (
     <>
       <div id="about" className="text-lg font-semibold" key={"about"}>
@@ -9,10 +22,10 @@ export default function AboutMe({ text }) {
         <div className="xl:grid grid-cols-[300px_1fr] items-start gap-10">
           <img
             src={me}
-            className="object-cover w-[300px] h-[300px] bg-stone-700 rounded-md  hue-rotate-30 saturate-30"
+            className="object-cover w-[300px] h-[300px] bg-stone-700 rounded-md  hue-rotate-30 saturate-30 mb-10"
           ></img>
           <div className="flex flex-col gap-3">
-            <p>{text.about.textOne}</p>
+            <p id="textOne">{text.about.textOne}</p>
             <p>{text.about.textTwo}</p>
             <p>{text.about.textThree}</p>
             <p>{text.about.textFour}</p>

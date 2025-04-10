@@ -15,18 +15,18 @@ export default function Bubbles() {
             <span
               key={index}
               style={{ "--i": item }}
-              className="even:bg-emerald-900 odd:bg-emerald-600 shadow-[0px_0px_5px_5px] odd:shadow-emerald-600 even:shadow-emerald-900 rounded-[2px] xl:hidden"
+              className="even:bg-emerald-900 odd:bg-emerald-600 shadow-[0px_0px_5px_5px] odd:shadow-emerald-600 even:shadow-emerald-900 rounded-[2px]"
             ></span>
           );
         })}
       </div>
-      <div className="bubblesTwo justify-between flex w-full fixed top-0">
+      <div className="bubblesTwo justify-between xl:flex w-full fixed top-0 hidden">
         {backgroundElements.map((item, index) => {
           return (
             <span
               key={index}
               style={{ "--i": item }}
-              className="even:bg-emerald-900 odd:bg-emerald-600 shadow-[0px_0px_5px_5px] odd:shadow-emerald-600 even:shadow-emerald-900 rounded-[2px] xl:hidden"
+              className="even:bg-emerald-900 odd:bg-emerald-600 shadow-[0px_0px_5px_5px] odd:shadow-emerald-600 even:shadow-emerald-900 rounded-[2px]"
             ></span>
           );
         })}
