@@ -9,7 +9,7 @@ export default function Bubbles() {
   }
   return (
     <>
-      <div className="bubbles justify-between flex w-full fixed top-0">
+      <div className="bubbles justify-between flex w-full fixed top-0 ">
         {backgroundElements.map((item, index) => {
           return (
             <span
@@ -20,7 +20,7 @@ export default function Bubbles() {
           );
         })}
       </div>
-      <div className="bubblesTwo justify-between flex w-full fixed top-0">
+      <div className="bubblesTwo justify-between xl:flex w-full fixed top-0 hidden">
         {backgroundElements.map((item, index) => {
           return (
             <span

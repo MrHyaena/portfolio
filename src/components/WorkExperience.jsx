@@ -12,17 +12,17 @@ export default function WorkExperience({ text }) {
           {text.work.position.map((item) => {
             return (
               <>
-                <div className="group grid grid-cols-[1fr_10px_1fr] gap-5">
-                  <div className=" rounded-md mb-40 flex flex-col gap-5">
+                <div className="group xl:grid grid-cols-[1fr_10px_1fr] gap-5 flex flex-col xl:mb-0 mb-10">
+                  <div className=" rounded-md xl:mb-40 flex flex-col gap-5 xl:mt-[-10px]">
                     <p className="text-xl font-semibold">{item.heading}</p>
                     <p>{item.text}</p>
                   </div>
 
-                  <div className="w-[2px] bg-primary group-first:rounded-t-full group-last:rounded-b-full">
-                    <div className="w-5 h-5 bg-primary rounded-r-md"></div>
+                  <div className="w-[3px] bg-primary group-first:rounded-t-full group-last:rounded-b-full">
+                    <div className="w-5 h-[3px] bg-primary rounded-r-md"></div>
                   </div>
                   <div>
-                    <p>{item.date}</p>
+                    <p className="xl:mt-[-10px]">{item.date}</p>
                   </div>
                 </div>
               </>

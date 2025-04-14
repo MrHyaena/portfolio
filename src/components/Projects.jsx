@@ -14,24 +14,24 @@ function Project({ heading, text, technologies, website, github, image }) {
     <>
       <div
         key={heading + text + "project"}
-        className="bg-stone-900 rounded-md  text-textDarker  flex gap-4 hover:scale-105  ease-in-out transition-all"
+        className="bg-stone-900 rounded-md  text-textDarker  flex xl:flex-row flex-col gap-4 hover:scale-105  ease-in-out transition-all"
       >
         <img
           src={image}
-          className="h-full w-[200px] object-cover bg-stone-700 rounded-l-md hue-rotate-[360deg]"
+          className="h-full xl:w-[200px] object-cover bg-stone-700 rounded-l-md hue-rotate-[360deg]"
         ></img>
         <div className="flex flex-col justify-between gap-3 p-5">
           <div>
             <h1 className="text-primary text-xl font-bold mb-2">{heading}</h1>
             <p>{text}</p>
           </div>
-          <div className="flex justify-between items-end">
+          <div className="flex xl:flex-row flex-col justify-between xl:items-end gap-5">
             <div>
               <h1 className="text-primary text-md font-bold mb-2">
                 Technologie
               </h1>
 
-              <div className="flex gap-3">
+              <div className="flex gap-3 flex-wrap">
                 {technologies.map((item) => {
                   return (
                     <>
