@@ -7,13 +7,11 @@ export const textCz = {
   about: {
     subheading: "O mně",
     textOne:
-      "Sám o sobě bych řekl, že jsem poměrně všestranný člověk. Skrze svět investic se mi hlava nastavila na ekonomické přemýšlení, skrze které dnes hodnotím projekty, benefity, nákladovost a mnoho dalšího.",
+      "Jsem všestranný člověk, který se nebojí pustit do nových věcí. Je mi blízké ekonomické myšlení, které formovala škola a zájem o investice. Sám jsem se také pustil do několika projektů, u kterých jsem si v průběhu sáhl také na tvorbu contentu a marketing. Profesně jsem se v průběhu rozhodl skočit do salesu, protože ani sebelepší projekt se sám neprodá. ",
     textTwo:
-      "Chuť po vlastním projektu mě pak před lety přivedla k no-code platformám, se kterými jsem po stovkách hodin vytvořil aplikace. Na to si přidejte marketing a trochu práva kvůli komunikaci se zákazníky. Profesně jsem se v této době učil sales ve startupu cílícím na e-commerce, protože i sebelepší aplikaci je potřeba nějakým způsobem dotlačit k zákanzíkům.",
+      "A jak jsem se dostal k programování? V jednu chvíli mě prostě přestala bavit omezení plynoucí z no-code aplikací a pustil jsem se tak planou parou do webového vývoje. Po zhruba 5 měsících jsem měl první full-stack appku na tvorbu předplatných, která stále běží.",
     textThree:
-      "V tuto chvíli je poslední fází plnohodnotné programování a projektový management. V jednu chvíli mě prostě přestala bavit omezení plynoucí z no-code aplikací a pustil jsem se tak planou parou do webového vývoje. Po zhruba 5 měsících jsem měl první full-stack appku na tvorbu předplatných, která stále běží.",
-    textFour:
-      "A ze skutečně osobního pohledu? Miluji sport, zvířata, různé výzvy ala čím náročnější a bolestivější tím lepší. Standardně si užívám každou akci, ale dostat mě tam je fuška. Představte si v zásadě zlatého retrývra a kromě kožichu se pravděpodobně dost trefíte.",
+      "No a osobně - miluji sport, zvířata, hluboké debaty a lasagne. Rád se učím nové věci, jen se někdy stane, že kvůli nim nestíhám jíst nebo spát. Jsem celkem soutěživý typ, nicméně férovost a upřímnost je pro mě na prvním místě.",
   },
   technologies: {
     subheading: "Technologie",
