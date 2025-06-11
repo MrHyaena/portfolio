@@ -101,22 +101,18 @@ export default function Panel({ text, children }) {
         </div>
         <div className="flex gap-5 text-2xl">
           <a
-            href="www.cz.cz"
+            target="blank"
+            href="https://github.com/MrHyaena"
             className="hover:text-primary transition-all ease-in-out hover:scale-110"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            href="www.cz.cz"
+            target="blank"
+            href="https://www.linkedin.com/in/martin-dole%C5%BEal-970830263/"
             className="hover:text-primary transition-all ease-in-out hover:scale-110"
           >
             <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a
-            href="www.cz.cz"
-            className="hover:text-primary transition-all ease-in-out hover:scale-110"
-          >
-            <FontAwesomeIcon icon={faFacebook} />
           </a>
         </div>
       </div>

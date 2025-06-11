@@ -69,6 +69,7 @@ export default function Technologies({ text }) {
                 </h4>
                 <ul>
                   <li>Javascript</li>
+                  <li>Typescript</li>
                   <li>CSS</li>
                   <li>HTML</li>
                 </ul>
@@ -78,11 +79,8 @@ export default function Technologies({ text }) {
                   {text.technologies.frontend[2]}
                 </h4>
                 <ul>
-                  <li>Typescript</li>
-
                   <li>React</li>
                   <li>NextJS</li>
-                  <li>CSS Modules</li>
                 </ul>
               </div>
               <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">
@@ -111,6 +109,7 @@ export default function Technologies({ text }) {
                 </h4>
                 <ul>
                   <li>Javascript</li>
+                  <li>Typescript</li>
                 </ul>
               </div>
               <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700 ">
@@ -118,7 +117,6 @@ export default function Technologies({ text }) {
                   {text.technologies.backend[2]}
                 </h4>
                 <ul>
-                  <li>Typescript</li>
                   <li>NodeJS</li>
                   <li>Express</li>
                 </ul>
@@ -128,9 +126,7 @@ export default function Technologies({ text }) {
                   {text.technologies.backend[3]}
                 </h4>
                 <ul>
-                  <li>Javascript</li>
-                  <li>CSS</li>
-                  <li>HTML</li>
+                  <li>Strapi</li>
                 </ul>
               </div>
             </div>
@@ -157,10 +153,9 @@ export default function Technologies({ text }) {
                   {text.technologies.database[2]}
                 </h4>
                 <ul>
-                  <li>Kubernetes</li>
-                  <li>Prisma</li>
                   <li>Node-postgres</li>
                   <li>Mongoose</li>
+                  <li>Postman</li>
                 </ul>
               </div>
               <div className="flex flex-col gap-3 border-l-3 pl-5 border-stone-700">

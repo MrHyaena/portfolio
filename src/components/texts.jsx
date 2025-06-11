@@ -72,10 +72,10 @@ export const textEng = {
     textTwo:
       "So, how did I get into programming? At one point, I simply grew tired of the limitations of no-code applications and dove headfirst into web development. After about 5 months, I had my first full-stack subscription creation app.",
     textThree:
-      "I love sports, animals, deep discussions, and lasagna. I enjoy learning new things; sometimes I get so engrossed that I forget to eat or sleep. I'm quite competitive, but fairness and honesty are always my top priorities.",
+      "I love sports, animals, deep discussions, and lasagna. I enjoy learning new things, sometimes I get so engrossed that I forget to eat or sleep. I'm quite competitive, but fairness and honesty are always my top priorities.",
   },
   technologies: {
-    subheading: "Technologie",
+    subheading: "Technologies",
     frontend: [
       "Front-end",
       "Languages & Coding",

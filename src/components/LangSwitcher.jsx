@@ -13,14 +13,14 @@ export default function LangSwitcher({ setText }) {
 
           if (lang == "cz") {
             cz.style.backgroundColor = "transparent";
-            eng.style.backgroundColor = "oklch(40.6% 0.145 163.225)";
+            eng.style.backgroundColor = "oklch(59.6% 0.145 163.225)";
             setLang("eng");
             setText(textEng);
             //setText({ ...textEng });
           }
           if (lang == "eng") {
             eng.style.backgroundColor = "transparent";
-            cz.style.backgroundColor = "oklch(40.6% 0.145 163.225)";
+            cz.style.backgroundColor = "oklch(59.6% 0.145 163.225)";
             setLang("cz");
             setText(textCz);
             //setText({ ...textCz });
