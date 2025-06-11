@@ -50,13 +50,6 @@ function App() {
         subheading: "Moje projekty",
         items: [
           {
-            name: "Shopr - Služba pro tvorbu předplatných",
-            text: "E-shopy standardně nemají možnost automatizovaných opakovaných objednávek. Cílej projektu bylo zákazníkům umožnit, aby si takové předplatné vytvořili. Jde o full-stack aplikaci, která v sobě propojuje kromě samotného systému i platební bránnu Stripe, CRM Pipedrive a emailing.",
-            tech: ["React", "Express", "MongoDB", "Stripe", "Pipedrive"],
-            webpage: "www.shopr.cz",
-            github: "www.github.ct",
-          },
-          {
             name: "Chatovací aplikace",
             text: "Cílem bylo naučit se pořádně pracovat s relační databází Postgres a websockety. Uživatelé aplikace mají vlastní účet, mohou vytvořit soukromé místnosti a pozvat do nich ostatní uživatele. Chat probíhá v živém režimu skrze websockety.",
             tech: ["React", "Express", "Postgres", "Websockety"],
@@ -64,30 +57,9 @@ function App() {
             github: "www.github.ct",
           },
           {
-            name: "Shoprš - Služba pro tvorbu předplatných v e-shopech",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur provident possimus dignissimos.",
-            tech: ["Něco", "Jiného", "Tady"],
-            webpage: "www.shopr.cz",
-            github: "www.github.ct",
-          },
-          {
-            name: "Shopr g- Služba pro tvorbu předplatných v e-shopech",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur provident possimus dignissimos.",
-            tech: ["Něco", "Jiného", "Tady"],
-            webpage: "www.shopr.cz",
-            github: "www.github.ct",
-          },
-          {
-            name: "Shopr h- Služba pro tvorbu předplatných v e-shopech",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur provident possimus dignissimos.",
-            tech: ["Něco", "Jiného", "Tady"],
-            webpage: "www.shopr.cz",
-            github: "www.github.ct",
-          },
-          {
-            name: "Shoprj - Služba pro tvorbu předplatných v e-shopech",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur provident possimus dignissimos.",
-            tech: ["Něco", "Jiného", "Tady"],
+            name: "Shopr - Služba pro tvorbu předplatných",
+            text: "E-shopy standardně nemají možnost automatizovaných opakovaných objednávek. Cílej projektu bylo zákazníkům umožnit, aby si takové předplatné vytvořili. Jde o full-stack aplikaci, která v sobě propojuje kromě samotného systému i platební bránnu Stripe, CRM Pipedrive a emailing.",
+            tech: ["React", "Express", "MongoDB", "Stripe", "Pipedrive"],
             webpage: "www.shopr.cz",
             github: "www.github.ct",
           },

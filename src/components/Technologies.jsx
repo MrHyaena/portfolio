@@ -7,7 +7,7 @@ export default function Technologies({ text }) {
     let database = document.getElementById("database");
 
     let ofset = 300;
-    let scale = 1.05;
+    let scale = 1.0;
 
     let windowWidth = window.innerWidth;
 

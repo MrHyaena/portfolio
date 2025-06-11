@@ -8,18 +8,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 import testImg from "/public/background.jpg";
+import shopr from "/public/shopr-icon-black-whiteBg.png";
 
 function Project({ heading, text, technologies, website, github, image }) {
   return (
     <>
       <div
         key={heading + text + "project"}
-        className="bg-stone-900 rounded-md  text-textDarker  flex xl:flex-row flex-col gap-4 hover:scale-105  ease-in-out transition-all"
+        className="bg-stone-900 rounded-md  text-textDarker  flex xl:flex-row flex-col gap-4 hover:scale-105  ease-in-out transition-all group"
       >
-        <img
-          src={image}
-          className="h-full xl:w-[200px] object-cover bg-stone-700 rounded-l-md hue-rotate-[360deg]"
-        ></img>
         <div className="flex flex-col justify-between gap-3 p-5">
           <div>
             <h1 className="text-primary text-xl font-bold mb-2">{heading}</h1>
@@ -84,7 +81,7 @@ export default function Projects({ text }) {
           technologies={text.projects.items[0].tech}
           website={text.projects.items[0].website}
           github={text.projects.items[0].github}
-          image={testImg}
+          image={shopr}
         />
         <Project
           heading={text.projects.items[1].name}
@@ -92,14 +89,6 @@ export default function Projects({ text }) {
           technologies={text.projects.items[1].tech}
           website={text.projects.items[1].website}
           github={text.projects.items[1].github}
-          image={testImg}
-        />
-        <Project
-          heading={text.projects.items[2].name}
-          text={text.projects.items[2].text}
-          technologies={text.projects.items[2].tech}
-          website={text.projects.items[2].website}
-          github={text.projects.items[2].github}
           image={testImg}
         />
       </div>

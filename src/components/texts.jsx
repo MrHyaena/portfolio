@@ -9,9 +9,9 @@ export const textCz = {
     textOne:
       "Jsem všestranný člověk, který se nebojí pustit do nových věcí. Je mi blízké ekonomické myšlení, které formovala škola a zájem o investice. Sám jsem se také pustil do několika projektů, u kterých jsem si v průběhu sáhl také na tvorbu contentu a marketing. Profesně jsem se v průběhu rozhodl skočit do salesu, protože ani sebelepší projekt se sám neprodá. ",
     textTwo:
-      "A jak jsem se dostal k programování? V jednu chvíli mě prostě přestala bavit omezení plynoucí z no-code aplikací a pustil jsem se tak planou parou do webového vývoje. Po zhruba 5 měsících jsem měl první full-stack appku na tvorbu předplatných, která stále běží.",
+      "A jak jsem se dostal k programování? V jednu chvíli mě prostě přestala bavit omezení plynoucí z no-code aplikací a pustil jsem se tak planou parou do webového vývoje. Po zhruba 5 měsících jsem měl první full-stack appku na tvorbu předplatných.",
     textThree:
-      "No a osobně - miluji sport, zvířata, hluboké debaty a lasagne. Rád se učím nové věci, jen se někdy stane, že kvůli nim nestíhám jíst nebo spát. Jsem celkem soutěživý typ, nicméně férovost a upřímnost je pro mě na prvním místě.",
+      "Miluji sport, zvířata, hluboké debaty a lasagne. Rád se učím nové věci, jen se někdy stane, že kvůli nim nestíhám jíst nebo spát. Jsem celkem soutěživý typ, nicméně férovost a upřímnost je pro mě na prvním místě.",
   },
   technologies: {
     subheading: "Technologie",
@@ -28,23 +28,17 @@ export const textCz = {
     subheading: "Moje projekty",
     items: [
       {
+        name: "Bookingová služba Rentek",
+        text: "Cílem bylo vytvořit bookingovou službu pro pronájem zahradní techniky. Hlavní body spočívaly v implementaci CMS Strapi pro content management s vlastními REST API cestami, vytvoření funkce kalendáře a rezervací, UI/UX eshopu a napojení business procesů do CRM systému, napojení platební brány.",
+        tech: ["React", "TypeScript", "Strapi", "Pipedrive", "REST API"],
+        website: "https:www.rentek.cz",
+        github: "https://github.com/MrHyaena/grasston",
+      },
+      {
         name: "Shopr - Služba pro tvorbu předplatných (live)",
-        text: "E-shopy standardně nemají možnost automatizovaných opakovaných objednávek. Cílej projektu bylo zákazníkům umožnit, aby si takové předplatné vytvořili. Jde o full-stack aplikaci, která v sobě propojuje kromě samotného systému i platební bránnu Stripe, CRM Pipedrive a emailing.",
+        text: "E-shopy standardně nemají možnost automatizovaných opakovaných objednávek. Cílem projektu bylo zákazníkům umožnit, aby si takové předplatné vytvořili. Jde o full-stack aplikaci, která v sobě propojuje kromě samotného systému i platební bránnu Stripe, CRM Pipedrive a emailing.",
         tech: ["React", "Express", "MongoDB", "Stripe", "Pipedrive"],
-        website: "https://www.shopr.cz",
         github: "https://github.com/MrHyaena/shopr",
-      },
-      {
-        name: "Chatovací aplikace",
-        text: "Cílem bylo naučit se pořádně pracovat s relační databází Postgres a websockety. Uživatelé aplikace mají vlastní účet, mohou vytvořit soukromé místnosti a pozvat do nich ostatní uživatele. Chat probíhá v živém režimu skrze websockety.",
-        tech: ["React", "TypeScript", "Express", "Postgres", "Websockety"],
-        github: "www.github.ct",
-      },
-      {
-        name: "Content Delivery Network",
-        text: "Cílem projektu bylo naučit se s Typescriptem a proniknout do kontejnerovacího systému Kubernetes. Samotné funkce aplikaci jsou jako u standardního CDN systému, tedy správa souborů, load balancing a odesílání odkazů na soubory skrze API requesty.",
-        tech: ["React", "TypeScript", "Express", "Postgres"],
-        github: "www.github.ct",
       },
     ],
   },
@@ -53,7 +47,7 @@ export const textCz = {
     position: [
       {
         heading: "Projektový manažer",
-        text: "Ve firmě se ze mě stala znovu všestranná posila týmu. Mým úkolem bylo spustit AI callcentrum, starat se o chod webu a API requesty týkající se propisování leadů, spravovat síť obchodních partnerů, rozběhnout emailingové kampaně a další větší či menší projekty.",
+        text: "Ve firmě se ze mě stala všestranná posila týmu. Mým úkolem bylo spustit AI procesy, starat se o chod webu a API requesty týkající se propisování leadů, spravovat síť obchodních partnerů, rozběhnout emailingové kampaně a další větší či menší projekty.",
         date: "Září 2024 - Doposud",
       },
       {
@@ -72,15 +66,13 @@ export const textEng = {
     links: ["About me", "Technologies", "My projects", "Work experience"],
   },
   about: {
-    subheading: "About me",
+    subheading: "About Me",
     textOne:
-      "I’d describe myself as a versatile individual with roots in the world of investments and finance. This background shaped my economic thinking, which naturally influences the way I approach projects, work, and everyday decisions. Around the same time, I also started writing articles for online media, where I honed my ability to craft compelling, story-driven copy.",
+      "I'm a versatile individual not afraid to tackle new challenges. Economic thinking, shaped by my education and interest in investments, resonates with me. I've also embarked on several projects where I gained hands-on experience in content creation and marketing. Professionally, I decided to venture into sales, as even the best project won't sell itself.",
     textTwo:
-      "Chuť po vlastním projektu mě pak před lety přivedla k no-code platformám, se kterými jsem po stovkách hodin vytvořil aplikace. Na to si přidejte marketing a trochu práva kvůli komunikaci se zákazníky.",
+      "So, how did I get into programming? At one point, I simply grew tired of the limitations of no-code applications and dove headfirst into web development. After about 5 months, I had my first full-stack subscription creation app.",
     textThree:
-      "V tuto chvíli je poslední fází plnohodnotné programování a projektový management. V jednu chvíli mě prostě přestala bavit omezení plynoucí z no-code aplikací a pustil jsem se tak planou parou do webového vývoje. Po zhruba 5 měsících jsem měl první full-stack appku na tvorbu předplatných, která stále běží.",
-    textFour:
-      "A ze skutečně osobního pohledu? Miluji sport, zvířata, různé výzvy ala čím náročnější a bolestivější tím lepší. Standardně si užívám každou akci, ale dostat mě tam je fuška. Představte si v zásadě zlatého retrývra a kromě kožichu se pravděpodobně dost trefíte.",
+      "I love sports, animals, deep discussions, and lasagna. I enjoy learning new things; sometimes I get so engrossed that I forget to eat or sleep. I'm quite competitive, but fairness and honesty are always my top priorities.",
   },
   technologies: {
     subheading: "Technologie",
@@ -100,27 +92,20 @@ export const textEng = {
   },
   projects: {
     subheading: "My projects",
+
     items: [
       {
-        name: "Shopr – A Live Platform for Building and Managing Subscription-Based Services",
-        text: "E-commerce platforms typically lack built-in support for automated recurring orders. The goal of this project was to enable customers to easily create their own subscription plans. Shopr is a full-stack application that integrates not only the core subscription system but also payment processing via Stripe, customer relationship management through Pipedrive, and email automation.",
+        name: "Booking service Rentek",
+        text: "The goal was to create a booking service for renting garden equipment. Key points involved implementing Strapi CMS for content management with custom REST API routes, creating calendar and reservation functionalities, e-shop UI/UX, integrating business processes into a CRM system, and connecting a payment gateway.",
+        tech: ["React", "TypeScript", "Strapi", "Pipedrive", "REST API"],
+        website: "https:www.rentek.cz",
+        github: "https://github.com/MrHyaena/grasston",
+      },
+      {
+        name: "Shopr - Subscription creation service (live)",
+        text: "E-shops typically don't have the option for automated recurring orders. The goal of this project was to enable customers to create such subscriptions. It's a full-stack application that connects the system itself with the Stripe payment gateway, Pipedrive CRM, and emailing.",
         tech: ["React", "Express", "MongoDB", "Stripe", "Pipedrive"],
-        webpage: "https://www.shopr.cz",
         github: "https://github.com/MrHyaena/shopr",
-      },
-      {
-        name: "Messaging Platform",
-        text: "The goal of the project was to gain hands-on experience with relational databases (PostgreSQL) and real-time communication via WebSockets. Users can create their own accounts, set up private chat rooms, and invite others to join. All messaging is handled in real time through WebSocket connections.",
-        tech: ["React", "Express", "Postgres", "Websockety"],
-        webpage: "www.shopr.cz",
-        github: "www.github.ct",
-      },
-      {
-        name: "Content Delivery Network",
-        text: "The goal of the project was to gain proficiency with TypeScript and explore containerization using Kubernetes. The core functionality of the application mirrors that of a standard CDN system, including file management, load balancing, and serving file links via API requests.",
-        tech: ["Něco", "Jiného", "Tady"],
-        webpage: "www.shopr.cz",
-        github: "www.github.ct",
       },
     ],
   },
